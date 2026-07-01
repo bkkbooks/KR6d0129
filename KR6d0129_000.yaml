@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6d0129/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 法華經論述記
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X46/X46n0790.xml
+    old_id: X46n0790
+hash: sha256:49720fb3a2b2bf04bad1328d7a9fd000eef4037b8ad0c13abf06e313d742fe76

@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6d0129/X/v1
+canonical_location: https://kanripo.org/bkk/KR6d0129/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 法華經論述記
+  identifiers:
+    krp: KR6d0129
+    cbeta: X46n0790
+    cbeta_old_id: X46n0790
+    authorityid: CA0000856
+    json_key: X0790
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X46/X46n0790.xml
+    old_id: X46n0790
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0129_000-X.yaml, hash: 'sha256:49720fb3a2b2bf04bad1328d7a9fd000eef4037b8ad0c13abf06e313d742fe76'}
+  - {seq: 1, filename: KR6d0129_001-X.yaml, hash: 'sha256:cd058816ddd6d15cec10f318dd751788b8822dd8377e015ac355edbebe8b8c17'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0129_000-X.markers.yaml, hash: 'sha256:bd89af0a1513bc6426e1120a59dd4734f630575aef32127ba309aa6d3da6bc02'}
+  - {seq: 1, role: markers, filename: assets/KR6d0129_001-X.markers.yaml, hash: 'sha256:8de27f02b710c75a029359997a7a6925b2faa817302a4de42fff1fb441bfa9ab'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0129_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 18826
+  label: 法華經論述記
+  type: juan
+  level: 1
+hash: sha256:cdd2774fb19fb1ea8aeec7bf872bacf4f95bad3a1652c96b206a2b8c8e21e02d

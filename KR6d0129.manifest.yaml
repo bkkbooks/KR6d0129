@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6d0129/v1
+canonical_location: https://kanripo.org/bkk/KR6d0129/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 法華經論述記
+  identifiers:
+    alt_id:
+    - X46n0790
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X46/X46n0790.xml
+    old_id: X46n0790
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0129_000.yaml, hash: 'sha256:49720fb3a2b2bf04bad1328d7a9fd000eef4037b8ad0c13abf06e313d742fe76'}
+  - {seq: 1, filename: KR6d0129_001.yaml, hash: 'sha256:fd56050f5c31836b957b9eabab301e05f318eb513e9ae9a73bf90d50cab323fb'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0129_001.markers.yaml, hash: 'sha256:ec5de14ef93dc81e2df614774947421443a487749324abcfb0f6cf76e135af47'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0129_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 18826
+  label: 法華經論述記
+  type: juan
+  level: 1
+hash: sha256:6c1f9443a7f89b89cae2af5e63c9657e2025567a6367540cd6824e06686c5035
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
